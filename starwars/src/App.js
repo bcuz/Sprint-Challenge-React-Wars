@@ -25,7 +25,7 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
-        this.setState({ starwarsChars: data });
+        this.setState({ starwarsChars: data.message.terrier });
       })
       .catch(err => {
         throw new Error(err);
@@ -35,8 +35,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
-        {/* <CharacterList characters={this.state.starwarsChars} /> */}
+        <h1 className="Header">terrier breeds</h1>
+        <CharacterList characters={this.state.starwarsChars} />
       </div>
     );
   }
