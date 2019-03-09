@@ -1,9 +1,7 @@
 import React from 'react';
 
 const Character = props => {
-  return (
-    <div>{props.person.gender}</div>
-  );
+  return <li className='list-group-item'>{props.person.name}</li>
 };
 
 export default Character;

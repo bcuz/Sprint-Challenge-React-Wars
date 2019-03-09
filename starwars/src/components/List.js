@@ -3,9 +3,9 @@ import Character from './Character';
 
 const List = props => {
   return (
-    <div>
+    <ul className='list-group'>
       {props.characters.map(char => <Character person={char} />)}
-    </div>
+    </ul>
   );
 };
 
