@@ -4,7 +4,7 @@ import Character from './Character';
 const CharacterList = props => {
   return (
     <ul className='list-group'>
-      {props.characters.map((char,i) => <Character index={i} person={char} />)}
+      {props.characters.map((char,i) => <Character index={i} name={char.name} />)}
     </ul>
   );
 };
