@@ -4,8 +4,7 @@ import Character from './Character';
 const List = props => {
   return (
     <div>
-      <div>hi</div>
-      <Character />
+      {props.characters.map(char => <Character person={char} />)}
     </div>
   );
 };

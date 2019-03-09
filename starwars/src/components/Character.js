@@ -2,7 +2,7 @@ import React from 'react';
 
 const Character = props => {
   return (
-    <div>bye</div>
+    <div>{props.person.gender}</div>
   );
 };
 
