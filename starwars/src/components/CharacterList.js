@@ -1,7 +1,7 @@
 import React from 'react';
 import Character from './Character';
 
-const List = props => {
+const CharacterList = props => {
   return (
     <ul className='list-group'>
       {props.characters.map(char => <Character person={char} />)}
@@ -9,4 +9,4 @@ const List = props => {
   );
 };
 
-export default List;
+export default CharacterList;
