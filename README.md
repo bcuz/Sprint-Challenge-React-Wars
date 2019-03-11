@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a library that is supposed to make it easier/faster to write UIs. React's virtual DOM is easier to use than the DOM API. The virtual DOM also reduces the workload of the browser.
+
 - [ ] What does it mean to _think_ in react?
+
+It means thinking about your UI as small pieces that each do one thing.
 
 - [ ] Describe state.
 
+State is the data that we have available in our application
+
 - [ ] Describe props.
+
+Props are immutable data that can be received/displayed by components.
 
 ## Project Set Up
 
